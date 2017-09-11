@@ -5,7 +5,7 @@
       "fields":[
         {
           "label":"Tipo",
-          "description":"Optional media to display above the question."
+          "description":"Medios opcionales para mostrar sobre la pregunta."
         }
       ]
     },
@@ -27,7 +27,7 @@
       }
     },
     {
-      "label":"Overall Feedback",
+      "label":"Comentarios generales",
       "fields":[
         {
           "widgets":[
@@ -35,20 +35,20 @@
               "label":"Default"
             }
           ],
-          "label":"Define custom feedback for any score range",
-          "description":"Click the \"Add range\" button to add as many ranges as you need. Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
-          "entity":"range",
+          "label":"Definir retroalimentación personalizada para cualquier rango de puntuación",
+          "description":"Haga clic en el botón \ "Añadir rango \" para agregar tantos rangos como necesite. Ejemplo: 0-20% Mala puntuación, 21-91% Puntuación media, 91-100% Gran puntuación!",
+          "entity":"rango",
           "field":{
             "fields":[
               {
-                "label":"Score Range"
+                "label":"Rango de puntuación"
               },
               {
                 
               },
               {
-                "label":"Feedback for defined score range",
-                "placeholder":"Fill in the feedback"
+                "label":"Opinión sobre el rango de puntuación definido",
+                "placeholder":"Rellene los comentarios"
               }
             ]
           }
@@ -61,127 +61,130 @@
     },
     {
       "label":"Texto para el botón de \"Reintentar\"",
-      "default":"Retry"
+      "default":"Reintentar"
     },
     {
-      "label":"Text for \"Check\" button",
-      "default":"Check"
+      "label":"Texto para el botónde \"Revisar\"",
+      "default":"Revisar"
     },
     {
-      "label":"Text for \"Not filled out\" message",
-      "default":"Please fill in all blanks to view solution"
+      "label":"Texto para el mensaje \"No completado\"",
+      "default":"Por favor, rellene todos los espacios en blanco para ver la solución"
     },
     {
-      "label":"Text for \"':ans' is correct\" message",
-      "default":"':ans' is correct"
+      "label":"Texto para el mensaje \"':ans' es correcto\"",
+      "default":"':ans' es correcta"
     },
     {
-      "label":"Text for \"':ans' is wrong\" message",
-      "default":"':ans' is wrong"
+      "label":"Texto para el mensaje \"':ans' es incorrecto\"",
+      "default":"':ans' es incorrecta"
     },
     {
-      "label":"Text for \"Answered correctly\" message",
-      "default":"Answered correctly"
+      "label":"Texto para el mensaje \"Contestaste correctamente\" message",
+      "default":"Contestaste correctamente"
     },
     {
-      "label":"Text for \"Answered incorrectly\" message",
-      "default":"Answered incorrectly"
+      "label":"Texto para el mensaje \"Contestaste incorrectamente\" message",
+      "default":"Contestaste incorrectamente"
     },
     {
-      "label":"Assistive technology label for solution",
-      "default":"Correct answer:"
+      "label":"Etiqueta de la tecnología de asistencia para la solución",
+      "default":"Respuesta correcta" 
     },
     {
-      "label":"Assistive technology label for input field",
-      "description":"Use @num and @total to replace current cloze number and total cloze number",
-      "default":"Blank input @num of @total"
+      "label":"Etiqueta de tecnología de asistencia para el campo de entrada",
+      "description":"Utilice @num y @total para reemplazar el número de cloze actual y el número total de cloze",
+      "default":"Entrada en blanco @num de @total"
     },
     {
-      "label":"Assistive technology label for saying an input has a tip tied to it",
-      "default":"Tip available"
+      "label":"La etiqueta de tecnología de asistencia para decir que una entrada tiene un sugerencia",
+      "default":"Sugerencia disponible"
     },
     {
-      "label":"Tip icon label",
-      "default":"Tip"
+      "label":"Etiqueta de icono sugerencia",
+      "default":"Sugerencia"
     },
     {
-      "label":"Behavioural settings.",
-      "description":"These options will let you control how the task behaves.",
+      "label":"Ajustes de comportamiento.",
+      "description":"Estas opciones le permiten controlar el comportamiento de la tarea.",
       "fields":[
         {
-          "label":"Enable \"Retry\""
+          "label":"Permitir \"Reintentar\""
         },
         {
-          "label":"Enable \"Show solutions\" button"
+          "label":"Permitir \"Mostrar soluciones\" button"
         },
         {
-          "label":"Automatically check answers after input"
+          "label":"Comprueba automáticamente las respuestas después de la entrada"
         },
         {
-          "label":"Case sensitive",
-          "description":"Makes sure the user input has to be exactly the same as the answer."
+          "label":"Sensible a mayúsculas",
+          "description":"Asegura que la entrada del usuario debe ser exactamente la misma que la respuesta."
         },
         {
-          "label":"Require all fields to be answered before the solution can be viewed"
+          "label":"Requiere que se respondan todos los campos antes de que se pueda ver la solución."
         },
         {
-          "label":"Put input fields on separate lines"
+          "label":"Coloque los campos de entrada en líneas separadas
+"
         },
         {
-          "label":"Disable image zooming for question image"
+          "label":"Deshabilitar el zoom de imagen para la imagen de pregunta"
         },
         {
-          "label":"Show confirmation dialog on \"Check\"",
-          "description":"This options is not compatible with the \"Automatically check answers after input\" option"
+          
+          "label":"Mostrar cuadro de diálogo de confirmación en \"Comprobar "",
+          "description":"Esta opción no es compatible con la opción \"Comprobar automáticamente las respuestas después de la entrada \" opción"
+          
         },
         {
-          "label":"Show confirmation dialog on \"Retry\""
+          "label":"Mostrar cuadro de diálogo de confirmación en \"Reintentar \""
         },
         {
-          "label":"Accept minor spelling errors",
-          "description":"If activated, an answer will also count as correct with minor spelling errors"
+          "label":"Aceptar errores de ortografía menores",
+          "description":"Si se activa, una respuesta también contará como correcta con errores menores de ortografía"
         }
       ]
     },
     {
-      "label":"Check confirmation dialog",
+      "label":"Revisar diálogo de confirmación",
       "fields":[
         {
-          "label":"Header text",
-          "default":"Finish ?"
+          "label":"Texto del encabezado",
+          "default":"¿Terminar?"
         },
         {
-          "label":"Body text",
-          "default":"Are you sure you wish to finish ?"
+          "label":"El cuerpo del texto",
+          "default":"¿Seguro que quieres terminar?"
         },
         {
-          "label":"Cancel button label",
-          "default":"Cancel"
+          "label":"Etiqueta del botón Cancelar",
+          "default":"Cancelar"
         },
         {
-          "label":"Confirm button label",
-          "default":"Finish"
+          "label":"Confirmar la etiqueta del botón",
+          "default":"Terminar"
         }
       ]
     },
     {
-      "label":"Retry confirmation dialog",
+      "label":"Reintentar diálogo de confirmación",
       "fields":[
         {
-          "label":"Header text",
-          "default":"Retry ?"
+          "label":"Texto del encabezado",
+          "default":"¿Volver a intentarlo?"
         },
         {
           "label":"Body text",
-          "default":"Are you sure you wish to retry ?"
+          "default":"¿Estas seguro que quieres volver a intentarlo?"
         },
         {
-          "label":"Cancel button label",
-          "default":"Cancel"
+          "label":"Etiqueta del botón Cancelar",
+          "default":"Cancelar"
         },
         {
-          "label":"Confirm button label",
-          "default":"Confirm"
+          "label":"Etiqueta del botón Confirmar",
+          "default":"Confirmar"
         }
       ]
     }
